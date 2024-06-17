@@ -1,31 +1,54 @@
+export const footerIcons=[
+  {
+    src: "/contact/emailIcon.png",
+    req: "mailto: contact@nexusinfo.in",
+    des:"mail:nexus"
+  },
+  {
+    src: "/contact/instagram-10.png",
+    req: "https://www.instagram.com/nexusinfo.in/",
+     des:"Instagram"
+  },
+  {
+    src: "/contact/whatsapp.png",
+    req:"https://api.whatsapp.com/send?phone=918778993293",
+    des:"Whatsapp"
+  },
+  {
+    src: "/contact/linkedinIcon.png",
+    req:"https://www.linkedin.com/company/nexus-software-pvt-ltd/",
+    des:"LinkedIn"
+  },
+]
+
 export const HeroData = [
   {
-    src: "hero/person1.jpg",
+    src: "hero/person11.jpg",
     bg: "#0be4d1",
     delay: 0.1,
   },
   {
-    src: "hero/person2.jpg",
+    src: "hero/person12.jpg",
     bg: "#fde490",
     delay: 0.3,
   },
   {
-    src: "hero/person3.jpg",
+    src: "hero/person13.jpg",
     bg: "#00c9f7",
     delay: 0.2,
   },
   {
-    src: "hero/person4.jpg",
+    src: "hero/person14.jpg",
     bg: "#83cfdf",
     delay: 0.2,
   },
   {
-    src: "hero/person5.jpg",
+    src: "hero/person15.jpg",
     bg: "#fe8856",
     delay: 0.3,
   },
   {
-    src: "hero/person6.jpg",
+    src: "hero/person16.jpg",
     bg: "#0be4d1",
     delay: 0.25,
   },
@@ -33,64 +56,70 @@ export const HeroData = [
 
 export const features = [
   {
-    icon: "/features/Frame-0.png",
-    title: "3x monthly revenue",
+    icon: "/features/wallet-50.png",
+    title: "Website Within Your Budget",
   },
   {
-    icon: "/features/Frame-1.png",
-    title: "Flat fee of 6-12%",
+    icon: "/features/calendar-50.png",
+    title: "24/7 Support",
   },
   {
-    icon: "/features/Frame-2.png",
-    title: "Flexible repayments by revenue share",
+    icon: "/features/handshake-50.png",
+    title: "Trustworthy Partnership",
   },
   {
-    icon: "/features/Frame-3.png",
-    title: "3-4 years repayment",
+    icon: "/features/icons8-java-50.png",
+    title: "Java",
   },
   {
-    icon: "/features/Frame-4.png",
-    title: "$10-100k seed investment",
+    icon: "/features/icons8-python-50.png",
+    title: "Python",
   },
   {
-    icon: "/features/Frame-5.png",
-    title: "2% of revenue up to 3X cap",
+    icon: "/features/icons8-php-50.png",
+    title: "PHP",
   },
 ];
 
 export const ourDiffFeatures = [
   {
-    icon: "/OurDiff/Frame-0.png",
-    title: "Data Driven",
-    des: "Our mission is to level the playing field for early stage growth capital. We provide capital that is unbiased, flexible and non dilutive with the execution support to accelerate value creation",
+    icon: "/OurDiff/project1.jpg",
+    title: "3D Responsive Web",
+    des: "A custom built website having 3D interactions to capture the visitor 's attention.",
+    req:"https://atmos.leeroy.ca/"
   },
   {
-    icon: "/OurDiff/Frame-1.png",
-    title: "flexible funding",
-    des: "Funding that flexes as revenue grows with transparent costs and does not require dilution, personal guarantees or pitch decks",
+    icon: "/OurDiff/project2.jpg",
+    title: "Business Website",
+    des: "Tell your audience about you whether you are a brand, startup or having blog.",
+    req:"https://www.designfuture.world/"
   },
   {
-    icon: "/OurDiff/Frame-2.png",
-    title: "value accelerating",
-    des: "On demand expertise to supercharge growth in areas that are hard to access for early stage founders",
+    icon: "/OurDiff/project3.jpg",
+    title: "E-Commerce Website",
+    des: "A proven E-Commerce website that will increase your revenue amd reach by 10x more.  ",
+    req:"https://www.blacktailor.store/"
   },
 ];
 
 export const hitFeatures = [
   {
-    icon: "/howItWorks/Frame-0.png",
-    title: "Connect",
-    des: "Register and qualify for funding in less than 5 mins. Connect revenue and marketing platforms you already use.",
+    icon: "/howItWorks/consultant.jpg",
+    title: "Business Consultant",
+    des: "Partner with us for strategic guidance, navigating the path to success with expert insights.",
+    link:'https://api.whatsapp.com/send?phone=918778993293',
   },
   {
-    icon: "/howItWorks/Frame-1.png",
-    title: "Get Funded",
-    des: "Get a term sheet with upto 3 funding offers. Select option that best suits and complete onboarding to receive funds in days",
+    icon: "/howItWorks/design.jpg",
+    title: "Design Service",
+    des: "Elevate brand aesthetics with our creative design solutions for a memorable presence.",
+    link:'https://api.whatsapp.com/send?phone=918778993293',
   },
   {
-    icon: "/howItWorks/Frame-2.png",
-    title: "Support Growth",
-    des: "Access curated feed of actionable insights and on demand execution expertise. Auto qualify for follow on funding as you grow",
+    icon: "/howItWorks/edu.jpg",
+    title: "Educational Platform",
+    des: "Empower learning through a dedicated online platform for educational excellence.",
+    link:'https://api.whatsapp.com/send?phone=918778993293',
   },
 ];
 
@@ -116,26 +145,32 @@ export const whoWeInvest = [
 export const testimonialsData = [
   {
     comment:
-      "SUPER HAPPY! Not only do you get to see the best seed and Early Stage companies but the exciting part is there’s a bunch of investors",
-    name: "Zach Lee",
-    profession: "QA specialist, Matrix architect",
+      "What stood out for me at Nexus Info was their friendly approach. They visited my office for website requirements, even capturing business photographs themselves.",
+    name: "Kishore",
+    profession: "Billa Bong Travels (Shree Paru Tours)",
   },
   {
     comment:
-      "I have been working with ZAINKEEPSCODE on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
-    name: "Cheryl R. Weiss",
-    profession: "Founder, Dubrow Cafeteria",
+      "Nexus Info's business tips were extraordinary, driving digital growth for my fitness center. The website generated numerous leads, significantly boosting my business.",
+    name: "Krishnan",
+    profession: "Krish Fitness Centre",
   },
   {
     comment:
-      "Another masterpiece really digging into the art of venture funds, portfolio construction and deal mechanics! Loved it - I can say without hesitation that it is incredibly valuable for anyone who is investing",
-    name: "Vicky R. Lane",
-    profession: "Directork, Lafayette Radio",
+      "The blog provided by Nexus Info proved immensely useful, allowing me to showcase my speeches and videos. It significantly enhanced my online reputation",
+    name: "Sanjai",
+    profession: "Public Speaker",
   },
   {
     comment:
-      "BlueVenture is the premier setting for entrepreneurs and investors alike to exchange ideas, and network. As an entrepreneur, I can rely on the BlueVenture to bring top caliber speakers, entrepreneurs and investors",
-    name: "Jennifer Dubois",
-    profession: "Manager, China Coast",
+      "The e-commerce store built by Nexus Info was extraordinary, elevating my store's reputation and boosting sales significantly.",
+    name: "Andrew",
+    profession: "CEO, Cold Nation",
+  },
+  {
+    comment:
+      "I have been working with Nexus Info for the last one year. They are proactive, prompt and understand the business requirements!!I admired how they come up with tailor made solutions and do not drag things!!",
+    name: "Frimpong",
+    profession: "Director, Prime",
   },
 ];
