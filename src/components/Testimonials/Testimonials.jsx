@@ -11,7 +11,6 @@ const Testimonials = () => {
                     <span className='des'>What they say</span>
                 </div>
             </div>
-                <Slickslider/>
           
         </div>
     </div>
