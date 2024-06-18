@@ -1,6 +1,6 @@
 import React from 'react'
 import './Testimonials.css'
-//import Slickslider from './Slickslider'
+import Slickslider from './Slickslider'
 const Testimonials = () => {
   return (
     <div className='t-wrapper'>
@@ -11,7 +11,7 @@ const Testimonials = () => {
                     <span className='des'>What they say</span>
                 </div>
             </div>
-          
+           <Slickslider/>
         </div>
     </div>
   )
