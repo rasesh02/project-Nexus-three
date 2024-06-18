@@ -1,6 +1,6 @@
 import React from 'react'
 import './Testimonials.css'
-import Slickslider from './Slickslider'
+import Slickslider from './SlickSlider'
 const Testimonials = () => {
   return (
     <div className='t-wrapper'>
